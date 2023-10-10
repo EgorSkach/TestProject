@@ -62,6 +62,8 @@ public UserController(AppDbContext context)
             Users = users
         };
 
+        Log.Information("Выбрано {PageSize} пользователлей с сортировкой по {SortBy}", pageSize, sortBy);
+
         return Ok(response);
     }
 
