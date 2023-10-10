@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestProject</name>
+    </assembly>
+    <members>
+        <member name="T:TestProject.Migrations._1">
+            <inheritdoc />
+        </member>
+        <member name="M:TestProject.Migrations._1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TestProject.Migrations._1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TestProject.Migrations._1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="P:TestProject.Models.Role.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:TestProject.Models.Role.Name">
+            <summary>
+            Низвание роли
+            </summary>
+        </member>
+        <member name="P:TestProject.Models.User.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:TestProject.Models.User.Name">
+            <summary>
+            Имя
+            </summary>
+        </member>
+        <member name="P:TestProject.Models.User.Age">
+            <summary>
+            Возраст
+            </summary>
+        </member>
+        <member name="P:TestProject.Models.User.Email">
+            <summary>
+            Email
+            </summary>
+        </member>
+        <member name="P:TestProject.Models.User.Roles">
+            <summary>
+            Роли пользователя
+            </summary>
+        </member>
+        <member name="M:UserController.GetUsers(System.Int32,System.Int32,System.String,System.String,System.String,System.Nullable{System.Int32},System.String,System.String)">
+            <summary>
+            Получение всех пользователей с фильтрами
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UserController.GetUser(System.Int32)">
+            <summary>
+            Получение пользователя по Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UserController.AddRoleToUser(System.Int32,System.Int32)">
+            <summary>
+            Добавление пользователю роли по Id роли
+            </summary>
+            <remarks>
+            Роли и их Id:
+            User - 1;
+            Admin - 2;
+            Support - 3;
+            SuperAdmin - 4
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:UserController.CreateUser(System.String,System.Int32,System.String,System.Int32)">
+            <summary>
+            Создание нового пользователя
+            </summary>
+            /// <remarks>
+            Роли и их Id:
+            User - 1;
+            Admin - 2;
+            Support - 3;
+            SuperAdmin - 4
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:UserController.UpdateUser(System.Int32,System.String,System.Nullable{System.Int32},System.String)">
+            <summary>
+            Изменение данных о пользователе по Id пользователя
+            </summary>
+            <remarks>
+            Роли и их Id:
+            User - 1;
+            Admin - 2;
+            Support - 3;
+            SuperAdmin - 4
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:UserController.DeleteUser(System.Int32)">
+            <summary>
+            Удаление пользователя по его Id
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
